@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    background: cornflowerblue;
+    position: sticky;
+    top: 0;
+    padding: .5rem;
+    color: white;
+    text-align: center;
+}
+
+.instrucciones {
+    max-width: 700px;
+    background-color: thistle;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 3rem;
+    box-shadow: 0 0 10px 0 #ccc;
+    border-radius: .5rem;
+}
+
+.instrucciones h3 {
+    text-align: center;
+    padding: .5rem;
+}
+
+.instrucciones .texto {
+    margin: 1rem;
+}
+
+.instrucciones .texto p {
+    line-height: 1.6;
+}
+
+.instrucciones .texto p b {
+    background-color: black;
+    color: white;
+    padding: 0 .2rem;
+}
+
+.stage {
+    max-width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: lightblue;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    box-shadow: inset 0px 0px 30px 0px rgba(0, 0, 0, 0.75);
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.ball {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: cornflowerblue;
+}
+
+hr {
+    margin: 1rem 0;
+    border: 1px solid #eee;
+}
+
+.flechas {
+    background-color: #000;
+    color: #fff;
+    width: 5rem;
+    text-align: center;
+}
